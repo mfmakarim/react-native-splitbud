@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "306134283389",
+    "project_id": "split-21d33",
+    "storage_bucket": "split-21d33.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:306134283389:android:e9c94f3ef49fdb393b2d14",
+        "android_client_info": {
+          "package_name": "com.splitbud"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "306134283389-kr1nlbtmlemgvqbn78mf76stcl5a6fak.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBc2nfOSyhb7WFc-vLvZLNMv8fULaDmrmw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "306134283389-kr1nlbtmlemgvqbn78mf76stcl5a6fak.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "306134283389-7mdt7mh0m8poina79ccr0u1322cejfdk.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.split.ios"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
