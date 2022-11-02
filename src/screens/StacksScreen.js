@@ -1,19 +1,23 @@
 import React from 'react';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 
+import {ThemeContextProvider} from '../contexts/ThemeContext';
+
 import TabsScreen from './TabsScreen';
 
 const Stack = createNativeStackNavigator();
 
 const StacksScreen = () => {
   return (
-    <Stack.Navigator screenOptions={{headerShadowVisible: false}}>
-      <Stack.Screen
-        name="Tabs"
-        component={TabsScreen}
-        options={() => ({title: 'SplitBud'})}
-      />
-    </Stack.Navigator>
+    <ThemeContextProvider>
+      <Stack.Navigator screenOptions={{headerShadowVisible: false}}>
+        <Stack.Screen
+          name="Tabs"
+          component={TabsScreen}
+          options={() => ({title: 'SplitBud', headerShown: false})}
+        />
+      </Stack.Navigator>
+    </ThemeContextProvider>
   );
 };
 
